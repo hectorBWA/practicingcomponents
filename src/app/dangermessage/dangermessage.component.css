@@ -1,5 +1,8 @@
-p.danger{
+button#danger{
     color:red;
     font-size: 50px;
     font-weight: bold;
+}
+p{
+    font-size:20px;
 }

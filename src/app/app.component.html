@@ -2,4 +2,36 @@
 <dangermessage></dangermessage>
  <successmessage></successmessage>
 <warningmessage></warningmessage>
+<div style="display: none;" id="hiddenText"><p id="space"></p>
+
 </div>
+
+<script>
+    var dangerBtn = document.getElementById('danger');
+var successBtn = document.getElementById('success');
+var warningBtn = document.getElementById('warning');
+var finalStory = document.getElementById('story');
+
+dangerBtn.addEventListener('click', getDanger);
+successBtn.addEventListener('click', getSuccess);
+warningBtn.addEventListener('click', getWarning);
+
+
+var story = 'Hello ';
+
+
+function getDanger(){
+  finalStory.innerHTML = story;
+  
+}
+
+function getSuccess(){
+  finalStory.innerHTML = story;
+  
+}
+
+function getWarning(){
+  finalStory.innerHTML = story;
+  
+}
+</script>

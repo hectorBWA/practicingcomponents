@@ -1,9 +1,9 @@
 .content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top:20vh;
     padding: 50px;
-    border: solid black;
     
 }
 p{

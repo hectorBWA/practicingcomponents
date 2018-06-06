@@ -1,7 +1,12 @@
-<div class="content">
-<dangermessage></dangermessage>
- <successmessage></successmessage>
-<warningmessage></warningmessage>
+
+<div class="content2">
+<button (click)="selectComponent()">hello</button>
+</div>
+<div class="content" *ngIf="componentSelected">
+    
+<dangermessage *ngIf="!index"></dangermessage>
+<successmessage *ngIf="index == 1"></successmessage>
+<warningmessage *ngIf="index ==2"></warningmessage>
 
 
 </div>

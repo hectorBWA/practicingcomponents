@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  componentSelected: boolean = false;
+  index: number;
+
+  selectComponent(){
+    this.componentSelected = true;
+    this.index = Math.floor(Math.random() * 3);
+    console.log('index', this.index);
+  }
 }
 

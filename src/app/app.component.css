@@ -1,0 +1,19 @@
+.content2{
+    text-align:center;
+    margin-top:10vh;
+    padding: 50px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:20vh;
+    padding: 50px;
+    
+}
+p{
+        color:black;
+        font-size:100px;
+    }
